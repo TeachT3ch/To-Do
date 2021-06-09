@@ -98,6 +98,32 @@ html{
     display: table;
     clear: both;
   }
+
+  .buttons-clasifiers button {
+    background-color: rgb(182, 113, 22);
+    border: 1px solid rgb(136, 85, 17);
+    width: 33%;
+    color: white; 
+    padding: 1em 1em; 
+    cursor: pointer; 
+    float: left;
+  }
+  
+  .buttons-clasifiers button:not(:last-child) {
+    border-right: none; /* Prevent double borders */
+  }
+  
+  /* Clear floats (clearfix hack) */
+  .buttons-clasifiers:after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  
+  /* Add a background color on hover */
+  .buttons-clasifiers button:hover {
+    background-color:  rgb(99, 62, 13);
+  }
   
   /* Style the input */
   input {

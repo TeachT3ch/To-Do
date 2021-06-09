@@ -40,6 +40,20 @@ var tasks = [new Task("Preparar la comida", ""),
 
 tasks.forEach(task => task.render());
 
+// Click buttons:
+
+function showArchived() {
+
+}
+
+function showFinished() {
+
+}
+
+function showOpen() {
+  
+}
+
 function addTask() {
   const inputValue = document.getElementById("myInput").value;
   if (inputValue === '') {
