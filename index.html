@@ -11,20 +11,13 @@
 
 <body>
     <div class="main">
-        <div id="myDIV" class="header">
+        <div class="header">
             <h2>Organizador de tareas</h2>
             <input type="text" id="myInput" placeholder="Nueva tarea">
-            <span onclick="newElement()" class="addBtn">Agregar</span>
+            <span onclick="addTask()" class="addBtn">Agregar</span>
           </div>
-          
-          <ul id="myUL">
-            <li>Hit the gym</li>
-            <li class="checked">Pay bills</li>
-            <li>Meet George</li>
-            <li>Buy eggs</li>
-            <li>Read a book</li>
-            <li>Organize office</li>
-          </ul> 
+          <ul id="taskList">
+          </ul>
     </div>
     <script type="text/javascript" src="index.js"></script>
     </body>
