@@ -10,6 +10,7 @@ const addTask = (taskName) => {
     const li = document.createElement("li");
     const taskNameNode = document.createTextNode(taskName);
     const span = document.createElement("span");
+    // span.setAttribute("onclick", "this.parentElement.remove();");
     span.className = "close";
     const cross = document.createTextNode("\u00D7");
     span.appendChild(cross);
