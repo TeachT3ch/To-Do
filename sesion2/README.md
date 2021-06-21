@@ -14,6 +14,7 @@ Aquí se detallan algunas ideas para ayudar a los profesores a preparar la sesi�
 * Bloques declarativos
   * Propiedades y valores
   * Unidades y funciones
+* Formas de añadir CSS a un documento HTML
 
 ## Posicionamiento de elementos
 
