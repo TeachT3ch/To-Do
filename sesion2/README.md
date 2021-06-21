@@ -2,6 +2,8 @@
 
 Aquí se detallan algunas ideas para ayudar a los profesores a preparar la sesión y el material asociado. Los profesores son en cualquier caso libres de utilizar o no este material y de plantear la sesión como mejor les parezca. Su única obligación es cubrir el contenido mínimo necesario para poder avanzar con la lista de tareas que hace de hilo conductor del curso.
 
+*Nota*: El CSS de la lista de tareas igual es un poco complejo para basar la clase enteramente sobre él. Estamos viendo la forma de simplificarlo, pero igual en esta sesión es importante apoyarse en ejemplos externos más sencillos, al menos al principio.
+
 ## Contexto
 
 * Historia de CSS: orígenes, y versiones
