@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>Lista de tareas TeachT3ch</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="main">
+        <div class="header">
+            <h2>Organizador de tareas</h2>
+            <input id="new_task_name" type="text" placeholder="Nueva tarea" />
+            <select id="new_task_status">
+                <option>Pendiente</option>
+                <option>En curso</option>
+                <option>Terminada</option>
+            </select>
+            <button id="add">Agregar</button>
+        </div>
+        <table>
+            <thead>
+                <tr><th id="name_header">Nombre</th><th id="status_header">Estado</th><th></th></tr>
+            </thead>
+            <tbody id="task_list">
+            </tbody>
+        </table>
+    </div>
+    <script type="text/javascript" src="index.js"></script>
+</body>
+
+</html>
