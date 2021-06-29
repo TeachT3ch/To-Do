@@ -35,3 +35,8 @@ Una pequeña lista de lo que se puede hacer manipulando el DOM con JavaScript:
 Todo esto lo iremos ampliando en sucesivas sesiones, pero puede ser bueno ir introduciendo algunos de estos conceptos ya.
 
 En esta parte se puede usar la propia lista de tareas por ejemplo añadiendo, modificando o eliminando elementos, creando nuevos eventos, etc. Pero cualquier otro ejemplo es perfecto también, bien hecho en directo o viendo páginas ya existentes.
+
+## Consola de desarrollo
+
+* Introducir su funcionamiento más básico (consola y elementos)
+* `console.log`
