@@ -30,4 +30,4 @@ También empezaremos a trabajar con funciones. Aparte de explicar el concepto y 
 
 # Ejercicio
 
-En la clase solo se habla de añadir tareas y se deja como ejercicio poder eliminarlas. En realidad, en `index.js` ya hay una línea comentada que es la que hay que descomentar para que eliminar las tareas funcione.
+En la clase solo se habla de añadir tareas y se deja como ejercicio poder eliminarlas. En realidad, en `index.js` ya hay una línea comentada que es la que hay que descomentar para que eliminar las tareas funcione y que, entre otras cosas, introduce el concepto de `parentElement`.
