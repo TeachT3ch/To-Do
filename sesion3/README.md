@@ -20,6 +20,7 @@ Aquí se detallan algunas ideas para ayudar a los profesores a preparar la sesi�
 * Elementos HTML como objetos JavaScript
   - Propiedades y métodos
 * Eventos
+* Elementos preconfigurados: `document`, `window`...
 
 Una pequeña lista de lo que se puede hacer manipulando el DOM con JavaScript:
 
