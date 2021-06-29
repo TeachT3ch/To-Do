@@ -10,4 +10,4 @@ Número | Nombre | Objetivo principal | Avance en la lista de tareas | Conceptos
 4 | DOM (2) | Selectores. Encontrar un elemento con JS y añadir un elemento nuevo a continuación. | Que se pueda añadir la tarea previa confirmación. Ejercicio: Que se pueda eliminar una tarea previa confirmación. | Condicionales y funciones | Condicionales y funciones
 5 | JavaScript (1) | Utilizar un array en memoria para gestionar las listas. | Mostrar el contenido del array como lista. No se puede añadir ni borrar. | Bucles, arrays. | Bucles, arrays.
 6 | JavaScript (2) | Implementar la nueva lógica de agregar, eliminar y repintar la lista. Añadimos estado a las tareas. | De nuevo una lista funcional. | Diccionarios -> objetos | Diccionarios -> objetos
-7 | JavaScript (3) | Guardar el estado de la lista en LocalStorage. Ordenación. Resumen... | Lista persistente. | LocalStorage, ordenación. | LocalStorage, ordenación.
+7 | JavaScript (3) | Guardar el estado de la lista en LocalStorage. Ordenación. Resumen... | Lista persistente. | JSON, localStorage, ordenación. | JSON, LocalStorage, ordenación.
