@@ -1,19 +1,27 @@
 html {
   height: 100%;
-  background: rgb(255,255,255);
-  background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(222,135,24,1) 35%, rgba(251,255,0,1) 100%);
   font-family: sans-serif;
-  background-size: auto;
+  background: #cfc5bb;
+  background-image: url(https://d2v8skpstyl8bm.cloudfront.net/products/images/product/3/e/3ec98a8a-c72b-3e99-9e16-3c9011c12dac.jpg?1543425010);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .main {
   width: 60%;
   margin: auto;
+  background-color: #29191ae6;
 }
 
 /* Incluir el borde y el padding en el ancho y la altura total de cada elemento */
 * {
   box-sizing: border-box;
+}
+
+h2 {
+  font-family: Arial;
+  font-size: 36px;
+  font-weight: lighter;
 }
 
 ul {
@@ -29,6 +37,7 @@ ul li {
   background: #eee;
   font-size: 18px;
   transition: 0.2s;
+  color: #29191ae6;
 }
 
 ul li:nth-child(odd) {
@@ -52,7 +61,6 @@ ul li:hover {
 }
 
 .header {
-  background-color:#e89980;
   padding: 30px 40px;
   color: white;
   text-align: center;
@@ -77,18 +85,19 @@ input {
 }
 
 button {
-  padding: 10px;
   width: 25%;
-  background: #d9d9d9;
-  color: #555;
   float: left;
   text-align: center;
   font-size: 16px;
   cursor: pointer;
   transition: 0.3s;
   border: 0;
+  background-color: burlywood;
+  color: #29191ae6;
+  height: 39px;
+  position: relative;
 }
 
 button:hover {
-  background-color: #bbb;
+  background-color: #cfc5bb;
 }
