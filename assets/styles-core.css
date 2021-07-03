@@ -1,16 +1,40 @@
 html {
   height: 100%;
-  font-family: sans-serif;
+  font-family: arial;
   background: #cfc5bb;
-  background-image: url(https://d2v8skpstyl8bm.cloudfront.net/products/images/product/3/e/3ec98a8a-c72b-3e99-9e16-3c9011c12dac.jpg?1543425010);
+  background-image: url(https://d2v8skpstyl8bm.cloudfront.net/products/images/product/3/e/3ec98a8a-c72b-3e99-9e16-3c9011c12dac.jpg);
   background-repeat: no-repeat;
   background-size: cover;
+}
+
+body {
+  margin: 0;
+}
+
+header {
+  text-align: center;
+  padding: 10px 0;
+  color: white;
+}
+
+.dark-background-color {
+  background-color: #29191a;
+  opacity: 90%;
 }
 
 .main {
   width: 60%;
   margin: auto;
-  background-color: #29191ae6;
+}
+
+footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  color: white;
+  padding: 10px 0;
+  width: 100%;
+  text-align: center;
 }
 
 /* Incluir el borde y el padding en el ancho y la altura total de cada elemento */
@@ -64,7 +88,7 @@ ul li:hover {
   padding: 30px 40px;
   color: white;
   text-align: center;
-  margin-top: 5%;
+  margin-top: 5px;
 }
 
 /* Eliminar floats después del header */
