@@ -94,6 +94,7 @@ button {
   border: 0;
   background-color: burlywood;
   color: #29191ae6;
+  padding: 0;
   height: 39px;
   position: relative;
 }

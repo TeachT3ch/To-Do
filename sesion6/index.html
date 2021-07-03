@@ -4,6 +4,7 @@
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <title>Lista de tareas TeachT3ch</title>
+    <link rel="stylesheet" href="../assets/styles-core.css">
     <link rel="stylesheet" href="style.css">
 </head>
 
@@ -11,13 +12,13 @@
     <div class="main">
         <div class="header">
             <h2>Organizador de tareas</h2>
-            <input id="new_task_name" type="text" placeholder="Nueva tarea" />
+            <input class="new-task" id="new_task_name" type="text" placeholder="Nueva tarea" />
             <select id="new_task_status">
                 <option>Pendiente</option>
                 <option>En curso</option>
                 <option>Terminada</option>
             </select>
-            <button id="add">Agregar</button>
+            <button id="add" class="float-right">Agregar</button>
         </div>
         <ul id="task_list">
         </ul>
