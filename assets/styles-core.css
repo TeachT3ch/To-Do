@@ -13,13 +13,12 @@ body {
 
 header {
   text-align: center;
-  padding: 10px 0;
-  color: white;
+  padding:  .5em 0;
 }
 
 main {
   width: 60%;
-  margin: auto;
+  margin: 0 auto;
 }
 
 footer {
@@ -27,13 +26,17 @@ footer {
   left: 0;
   bottom: 0;
   color: white;
-  padding: 10px 0;
+  padding: .5em 0;
   width: 100%;
+}
+
+header, footer {
   text-align: center;
 }
 
 .dark-background-color {
   background-color: #29191a;
+  color: white;
   opacity: 90%;
 }
 
@@ -53,7 +56,7 @@ li {
   cursor: pointer;
   display: flex;
   align-items: center;
-  padding-left: 40px;
+  padding:  .8em .5em .7em 1.5em;  
   background: #eee;
   font-size: 18px;
   transition: 0.2s;
@@ -81,44 +84,64 @@ li .content {
 }
 
 .header {
-  padding: 30px 40px;
-  color: white;
+  padding: 30px 10%;
   text-align: center;
   margin-top: 5px;
 }
 
-/* Eliminar floats después del header */
-.header:after {
-  content: "";
-  display: table;
-  clear: both;
+input, button {
+  margin: 0;
+  border: none;
+  padding: .7em;
+  font-size: 16px;
+  transition: 0.3s;
 }
 
 input {
-  margin: 0;
-  border: none;
-  border-radius: 0;
-  width: 72%;
-  padding: 10px;
-  float: left;
-  font-size: 16px;
+  border-radius: .5em 0 0 .5em;
+  width: 60%;
 }
 
 button {
-  width: 25%;
-  float: left;
-  text-align: center;
-  font-size: 16px;
+  width: 23%;
   cursor: pointer;
-  transition: 0.3s;
-  border: 0;
+  border-radius: 0 .5em .5em 0;
   background-color: burlywood;
   color: #29191ae6;
-  padding: 0;
-  height: 39px;
-  position: relative;
 }
 
 button:hover {
   background-color: #cfc5bb;
+}
+
+@media (max-width: 700px) { 
+
+  h1 {
+    font-size:  1.5em;
+  }
+
+  h2 {
+    font-size: 28px;
+    margin: 0 0 .5em 0;
+  }
+
+  main {
+    width: 90%;
+  }
+
+  .header {
+    text-align: center;
+  }
+
+  input, button {
+    width:  90%;
+    margin: 5px auto;
+    border-radius: .2em;
+    transition: .6s;
+    padding: .5em 5%;
+  }
+
+  button {
+    width: 100%;
+  }
 }
