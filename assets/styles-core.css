@@ -1,21 +1,40 @@
 html {
   height: 100%;
-  font-family: sans-serif;
+  font-family: arial;
   background: #cfc5bb;
-  background-image: url(https://d2v8skpstyl8bm.cloudfront.net/products/images/product/3/e/3ec98a8a-c72b-3e99-9e16-3c9011c12dac.jpg?1543425010);
+  background-image: url(https://d2v8skpstyl8bm.cloudfront.net/products/images/product/3/e/3ec98a8a-c72b-3e99-9e16-3c9011c12dac.jpg);
   background-repeat: no-repeat;
   background-size: cover;
 }
 
-.main {
-  width: 60%;
-  margin: auto;
-  background-color: #29191ae6;
+body {
+  margin: 0;
 }
 
-/* Incluir el borde y el padding en el ancho y la altura total de cada elemento */
-* {
-  box-sizing: border-box;
+header {
+  text-align: center;
+  padding: 10px 0;
+  color: white;
+}
+
+main {
+  width: 60%;
+  margin: auto;
+}
+
+footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  color: white;
+  padding: 10px 0;
+  width: 100%;
+  text-align: center;
+}
+
+.dark-background-color {
+  background-color: #29191a;
+  opacity: 90%;
 }
 
 h2 {
@@ -30,10 +49,11 @@ ul {
   list-style-type: none;
 }
 
-ul li {
+li {
   cursor: pointer;
-  position: relative;
-  padding: 12px 8px 12px 40px;
+  display: flex;
+  align-items: center;
+  padding-left: 40px;
   background: #eee;
   font-size: 18px;
   transition: 0.2s;
@@ -48,23 +68,23 @@ ul li:hover {
   background: #ddd;
 }
 
+li .content {
+  flex-grow: 1;
+}
+
 .close {
-  position: absolute;
-  right: 0;
-  top: 0;
-  padding: 12px 16px 12px 16px;
+  padding: 12px;
 }
 
 .close:hover {
-  background-color: #f44336;
-  color: white;
+  color: #f44336;
 }
 
 .header {
   padding: 30px 40px;
   color: white;
   text-align: center;
-  margin-top: 5%;
+  margin-top: 5px;
 }
 
 /* Eliminar floats después del header */
@@ -78,7 +98,7 @@ input {
   margin: 0;
   border: none;
   border-radius: 0;
-  width: 75%;
+  width: 72%;
   padding: 10px;
   float: left;
   font-size: 16px;
