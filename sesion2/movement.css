@@ -1,0 +1,19 @@
+li {
+  transition: 0.2s;
+}
+
+ul li:hover {
+  background: #ddd;
+}
+
+.close:hover {
+  color: #f44336;
+}
+
+input, button {
+  transition: 0.3s;
+}
+
+button:hover {
+  background-color: #cfc5bb;
+}
