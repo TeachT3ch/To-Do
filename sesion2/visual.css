@@ -1,0 +1,50 @@
+html {
+  font-family: arial;
+  background: #cfc5bb;
+  background-image: url(https://d2v8skpstyl8bm.cloudfront.net/products/images/product/3/e/3ec98a8a-c72b-3e99-9e16-3c9011c12dac.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+h2 {
+  font-family: Arial;
+  font-size: 36px;
+  font-weight: lighter;
+}
+
+li {
+  cursor: pointer;
+  background: #eee;
+  font-size: 18px;
+  color: #29191ae6;
+}
+
+ul li:nth-child(odd) {
+  background: #f9f9f9;
+}
+
+.dark-background-color {
+  background-color: #29191a;
+  opacity: 90%;
+}
+
+.close {
+  padding: 12px;
+}
+
+input, button {
+  border: none;
+  padding: .7em;
+  font-size: 16px;
+}
+
+input {
+  border-radius: .5em 0 0 .5em;
+}
+
+button {
+  cursor: pointer;
+  border-radius: 0 .5em .5em 0;
+  background-color: burlywood;
+  color: #29191ae6;
+}

@@ -1,0 +1,31 @@
+@media (max-width: 700px) { 
+
+  h1 {
+    font-size:  1.5em;
+  }
+
+  h2 {
+    font-size: 28px;
+    margin: 0 0 .5em 0;
+  }
+
+  main {
+    width: 90%;
+  }
+
+  .header {
+    text-align: center;
+  }
+
+  input, button {
+    width:  90%;
+    margin: 5px auto;
+    border-radius: .2em;
+    transition: .6s;
+    padding: .5em 5%;
+  }
+
+  button {
+    width: 100%;
+  }
+}

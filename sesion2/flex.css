@@ -1,0 +1,8 @@
+li {
+  display: flex;
+  align-items: center;
+}
+
+li .content {
+  flex-grow: 1;
+}
