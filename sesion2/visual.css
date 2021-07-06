@@ -6,8 +6,11 @@ html {
   background-size: cover;
 }
 
+body {
+  font-family: arial;
+}
+
 h2 {
-  font-family: Arial;
   font-size: 36px;
   font-weight: lighter;
 }
@@ -16,7 +19,7 @@ li {
   cursor: pointer;
   background: #eee;
   font-size: 18px;
-  color: #29191ae6;
+  color: #29191a;
 }
 
 ul li:nth-child(odd) {
@@ -32,19 +35,20 @@ ul li:nth-child(odd) {
   padding: 12px;
 }
 
-input, button {
+input,
+button {
   border: none;
-  padding: .7em;
+  padding: 0.7em;
   font-size: 16px;
 }
 
 input {
-  border-radius: .5em 0 0 .5em;
+  border-radius: 0.5em 0 0 0.5em;
 }
 
 button {
   cursor: pointer;
-  border-radius: 0 .5em .5em 0;
+  border-radius: 0 0.5em 0.5em 0;
   background-color: burlywood;
-  color: #29191ae6;
+  color: #29191a;
 }
